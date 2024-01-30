@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAWN of LEGENDS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onload="startGame()">
+  <canvas class="canvas" id="canvas1"></canvas><br>
+
+  <div style="padding: 0.5rem;">
+    <img src="Assets/Images/logo2.png" width=15% height=auto alt="logo here"></image>
+  </div>
+
+  <div class="videoBox">
+    <video width="320" height="240" autoplay muted>
+      <source src="Assets/football.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div style="text-align: left; margin-top:0.5em; position:sticky; background-color: #0e621b;">
+    <audio id="player" loop autoplay>
+      <source src="Assets/lawn-mowing.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script src="gameScript.js">
+
+  </script>
+</body>
+
+</html>

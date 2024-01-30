@@ -1,0 +1,232 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+    background-color: #0e621b;
+  }
+  
+  .mainBox {
+    background-image: url('Assets/Images/bgGrass.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /**animation: blur 1s;
+    animation-iteration-count: infinite;**/
+  
+    padding: 2rem;
+    margin-top: 0.5rem;
+    vertical-align: center;
+    border-radius: 4em;
+  
+    border: 2px solid #042f0b;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .centerBox {
+    text-align: center;
+  }
+  
+  .titlePad {
+    padding: 3rem;
+    font-size: 4rem;
+  }
+  
+  .box1Pad {
+    padding: 0.4rem;
+  }
+  
+  @keyframes blur {
+    0% {
+      filter: blur(0);
+    }
+  
+    50% {
+      filter: blur(0.3px);
+    }
+  
+    100% {
+      filter: blur(0);
+    }
+  }
+  
+  .startBTN {
+    /*try to test blink*/
+    background-color: #0e621b;
+    color: #c8e854;
+    font-family: Bugbear;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    border-color: black;
+    border-width: 0.3rem;
+    padding: 0.5rem 1rem;
+    /* Some padding */
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+  
+    width: auto;
+    height: 20%;
+  }
+  
+  /* Darker background on mouse-over */
+  .startBTN:hover {
+    background-color: black;
+  }
+  
+  .headLogo {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .music {
+    background-color: #bbf269;
+    font-family: Bugbear;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  
+  /*-------------------- pick.html page -------------------*/
+  
+  .mainBox2 {
+    background-image: url('Assets/Images/grass.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /**animation: blur 1s;
+    animation-iteration-count: infinite;**/
+  
+    padding: 2rem;
+    margin-top: 0.5rem;
+    vertical-align: center;
+    border-radius: 4em;
+    border-color: black;
+    border: 10px;
+  }
+  
+  .redbtn {
+    /*try to test blink*/
+    background-image: url('Assets/Images/red.png');
+    background-size: 260px 400px;
+    /*width length*/
+    background-color: #0e621b;
+    color: #B4D245;
+    border-color: black;
+    border-width: 0.5rem;
+    padding: 0.5rem 1rem;
+    /* Some padding */
+    border-radius: 0.5rem;
+    font-size: 100%;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+  
+    width: auto;
+    height: 20%;
+  }
+  
+  .bluebtn {
+    /*try to test blink*/
+    background-image: url('Assets/Images/blue.png');
+    background-size: 260px 400px;
+    /*width length*/
+    background-color: #0e621b;
+    color: #B4D245;
+    border-color: black;
+    border-width: 0.5rem;
+    padding: 0.5rem 1rem;
+    /* Some padding */
+    border-radius: 0.5rem;
+    font-size: 100%;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+  
+    width: auto;
+    height: 20%;
+  }
+  
+  /* Choose lawnmower boxes */
+  .smallBox1 {
+    display: inline-block;
+    border: 0px solid white;
+    vertical-align: middle;
+    border-radius: 10px;
+    opacity: 85%;
+  }
+  
+  .smallBox2 {
+    display: inline-block;
+    border: 0px solid white;
+    vertical-align: middle;
+    opacity: 85%;
+  }
+  
+  .smallBox1:hover {
+    opacity: 100%;
+  }
+  
+  .smallBox2:hover {
+    opacity: 100%;
+  }
+  
+  /*------------------- fake.html page -------------------*/
+  .videoBox {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+  }
+  
+  .mainBox3 {
+    background-image: url('Assets/Images/bgGrass.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /**animation: blur 1s;
+    animation-iteration-count: infinite;**/
+  
+    padding: 2rem;
+    margin-top: 0.5rem;
+    vertical-align: center;
+    border-radius: 4em;
+    border-color: black;
+    border: 10px;
+  }
+  
+  .canvas {
+    border: 0px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 1025px;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  
+  /*------------------- fonts -------------------*/
+  @font-face {
+    font-family: "Bugbear";
+    src: url("Assets/Bugbear\ Regular.otf");
+  }
