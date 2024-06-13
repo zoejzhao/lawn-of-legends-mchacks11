@@ -1,5 +1,5 @@
 ## Lawn of Legends: McHacks 11 project
-- frontend by [@arianajl](https://github.com/arianajl) and [@swimmingandy](https://github.com/swimmingandy)
+- frontend by [@arianajl](https://github.com/arianajl) and [@angelahtang](https://github.com/angelahtang)
 - design/graphics by [@HSHSHSHSHSHSHSHSHSHS](https://github.com/HSHSHSHSHSHSHSHSHSHS)
 - backend by [@zoejzhao](https://github.com/zoejzhao/) (me)
 - made with Javascript/HTML/CSS
